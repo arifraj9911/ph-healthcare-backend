@@ -12,6 +12,7 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@types/cors": "^2.8.18",
     "@types/express": "^5.0.2",
     "@types/node": "^22.15.29",
     "prisma": "^6.8.2",
@@ -20,6 +21,9 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
+    "@prisma/client": "^6.8.2",
+    "@types/bcrypt": "^5.0.2",
+    "bcrypt": "^6.0.0",
     "cors": "^2.8.5",
     "express": "^5.1.0"
   }
